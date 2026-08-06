@@ -12,7 +12,6 @@ void reverse(int arr[], int i, int n) {
     // Recursive Call
     reverse(arr, i + 1, n);
 }
-
 int main() {
     int arr[] = {1, 2, 3, 4, 5};
     int n = 5;
