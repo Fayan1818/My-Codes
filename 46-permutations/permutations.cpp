@@ -13,7 +13,7 @@ public:
         }
 
         for (int i = idx; i < arr .size(); i++) {
-            swap(arr[idx], arr[i]);
+            swap(arr[idx], arr[i]); 
             permutations(res, arr, idx + 1);
             swap(arr[idx], arr[i]);   // Required for backtracking
         }
