@@ -11,7 +11,7 @@ public:
             mp[key].push_back(strs[i]);
         }
 
-        vector<vector<string>> result;
+        vector<vector<string>> result; 
 
         for(auto& entry : mp)
         {
